@@ -172,3 +172,6 @@ UnitTestSessionAction 1445431846755 TestPlanetExplorer OK
 RefactoringAction 1445431955012 TestPlanetExplorer.java ADD import org.junit.Before IMPORT
 EditAction 1445431956862 TestPlanetExplorer.java 1422 5 12 5
 EditAction 1445431996271 TestPlanetExplorer.java 1424 5 12 5
+RefactoringAction 1445431999952 TestPlanetExplorer.java REMOVE testInitialStatusRequest() METHOD
+RefactoringAction 1445432001460 TestPlanetExplorer.java ADD void testInitialStatusRequest() METHOD
+EditAction 1445432006875 TestPlanetExplorer.java 1424 5 12 5
