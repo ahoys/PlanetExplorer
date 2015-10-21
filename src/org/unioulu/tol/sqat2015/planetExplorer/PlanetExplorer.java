@@ -97,8 +97,8 @@ public class PlanetExplorer {
 	}
 	
 	public void setPlanetSize(int x, int y) {
-		planet_x_max = x;
-		planet_y_max = y;
+		planet_x_max = x - 1;
+		planet_y_max = y - 1;
 	}
 	
 	public void setLocationX(int x) {
