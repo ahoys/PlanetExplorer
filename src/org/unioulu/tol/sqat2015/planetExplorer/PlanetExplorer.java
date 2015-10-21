@@ -60,6 +60,21 @@ public class PlanetExplorer {
 				break;
 			}
 			
+			// Warp
+			if (location_x > planet_x_max) {
+				location_x = 0;
+			}
+			
+			if (location_y > planet_y_max) {
+				location_y = 0;
+			}
+			if (location_x < 0) {
+				location_x = planet_x_max;
+			}
+			if (location_y < 0) {
+				location_y = planet_y_max;
+			}
+			
 		}
 		
 		return getExplorerState();
