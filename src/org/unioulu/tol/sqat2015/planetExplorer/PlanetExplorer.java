@@ -5,12 +5,12 @@ package org.unioulu.tol.sqat2015.planetExplorer;
 // Finish time: 16.27
 public class PlanetExplorer {
 	
-	public static int planet_x_max = 0;			// Width of the planet in grid units.
-	public static int planet_y_max = 0;			// Height of the planet in grid units.
-	public static int location_x = 0;			// Explorer's location on the grid in horizontal axis.
-	public static int location_y = 0;			// Explorer's location on the grid in vertical axis.
-	public static String heading = "N";			// Explorer's heading in bearings N S W E.
-	public static String[] obstacles = {};		// List of obstacles on the grid.
+	public static int 		planet_x_max = 0;			// Width of the planet in grid units.
+	public static int 		planet_y_max = 0;			// Height of the planet in grid units.
+	public static int 		location_x = 0;				// Explorer's location on the grid in horizontal axis.
+	public static int 		location_y = 0;				// Explorer's location on the grid in vertical axis.
+	public static String 	heading = "N";				// Explorer's heading in bearings N S W E.
+	public static String[] 	obstacles = {};				// List of obstacles on the grid.
 	
 	public PlanetExplorer(int x, int y, String obstacles){
 	/*	x and y represent the size of the grid.
