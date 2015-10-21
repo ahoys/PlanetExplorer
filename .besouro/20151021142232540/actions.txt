@@ -15,3 +15,4 @@ RefactoringAction 1445428526338 TestPlanetExplorer.java RENAME testExecute()=>vo
 RefactoringAction 1445428580422 TestPlanetExplorer.java RENAME testExecuteValidJourney()=>void testExecuteInitialStatusRequest() METHOD
 RefactoringAction 1445428587929 TestPlanetExplorer.java RENAME testExecuteInitialStatusRequest()=>void testInitialStatusRequest() METHOD
 EditAction 1445428612160 TestPlanetExplorer.java 459 1 1 1
+EditAction 1445428682411 TestPlanetExplorer.java 584 1 2 1
