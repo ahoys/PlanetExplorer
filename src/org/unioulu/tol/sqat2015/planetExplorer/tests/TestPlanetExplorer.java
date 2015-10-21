@@ -29,7 +29,7 @@ public class TestPlanetExplorer {
 	}
 	
 	@Test
-	public void testReturningExplorerXlocation() {
+	public void testReturningValidExplorerXlocation() {
 		// Test returning the location and heading of the explorer.
 		PlanetExplorer planet = new PlanetExplorer(100,100,null);
 		planet.setLocationX(1);

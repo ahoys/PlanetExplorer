@@ -113,3 +113,6 @@ RefactoringAction 1445431032199 PlanetExplorer.java ADD int getLocationX()/2 MET
 RefactoringAction 1445431034705 PlanetExplorer.java RENAME getLocationX()/2=>int getLocationY() METHOD
 EditAction 1445431042655 PlanetExplorer.java 2577 10 12 0
 EditAction 1445431046865 TestPlanetExplorer.java 1128 4 9 4
+UnitTestCaseAction 1445431050446 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1445431050447 TestPlanetExplorer FAIL
+EditAction 1445431075190 TestPlanetExplorer.java 1133 4 9 4
