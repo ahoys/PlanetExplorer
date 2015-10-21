@@ -44,16 +44,16 @@ public class TestPlanetExplorer {
 	@Test
 	public void testTurnRight() {
 		PlanetExplorer planet = new PlanetExplorer(100,100,null);
-		assertEquals("(0,0,E)",planet.executeCommand("r"));
+		assertEquals("(1,1,E)",planet.executeCommand("r"));
 	}
 	
 	@Test
 	public void testTurnLeft() {
 		PlanetExplorer planet = new PlanetExplorer(100,100,null);
-		assertEquals("(0,0,N)",planet.executeCommand("l"));
+		assertEquals("(1,1,N)",planet.executeCommand("l"));
 	}
 	
-	@Last
+	@Test
 	public void testRoute() {
 		PlanetExplorer planet = new PlanetExplorer(100,100,null);
 		assertEquals("(1,1,W)",planet.executeCommand("ffrflbl"));
