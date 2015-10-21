@@ -23,22 +23,6 @@ public class TestPlanetExplorer {
 	}
 	
 	@Test
-	public void testReturningNewExplorerXlocation() {
-		// Test setting a new X location for the Explorer.
-		PlanetExplorer planet = new PlanetExplorer(100,100,null);
-		planet.setLocationX(1);
-		assertEquals(1,planet.getLocationX());
-	}
-	
-	@Test
-	public void testReturningNewExplorerYlocation() {
-		// Test setting a new Y location for the Explorer.
-		PlanetExplorer planet = new PlanetExplorer(100,100,null);
-		planet.setLocationY(2);
-		assertEquals(2,planet.getLocationY());
-	}
-	
-	@Test
 	public void testInitialStatusRequest() {
 		// Test returning the location and heading of the explorer.
 		PlanetExplorer planet = new PlanetExplorer(100,100,null);
