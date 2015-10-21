@@ -10,6 +10,7 @@ public class PlanetExplorer {
 	public static int location_x = 0;			// Explorer's location on the grid in horizontal axis.
 	public static int location_y = 0;			// Explorer's location on the grid in vertical axis.
 	public static String heading = "N";			// Explorer's heading in bearings N S W E.
+	public static String[] obstacles = {};
 	
 	public PlanetExplorer(int x, int y, String obstacles){
 	/*	x and y represent the size of the grid.
