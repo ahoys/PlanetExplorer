@@ -226,3 +226,5 @@ UnitTestSessionAction 1445432637232 TestPlanetExplorer OK
 EditAction 1445432648848 PlanetExplorer.java 2916 11 17 0
 RefactoringAction 1445432670353 PlanetExplorer.java RENAME returnOutput()=>String returnExplorerState() METHOD
 EditAction 1445432671575 PlanetExplorer.java 2930 11 17 0
+RefactoringAction 1445432681877 PlanetExplorer.java RENAME returnExplorerState()=>String getExplorerState() METHOD
+EditAction 1445432684647 PlanetExplorer.java 2924 11 17 0
