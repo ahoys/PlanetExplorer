@@ -78,3 +78,7 @@ UnitTestSessionAction 1445429846886 TestPlanetExplorer FAIL
 UnitTestCaseAction 1445429866688 TestPlanetExplorer.java FAIL
 UnitTestSessionAction 1445429866689 TestPlanetExplorer FAIL
 EditAction 1445429893557 PlanetExplorer.java 1711 5 6 0
+RefactoringAction 1445429920615 PlanetExplorer.java ADD int location_x FIELD
+RefactoringAction 1445429929129 PlanetExplorer.java ADD int location_y FIELD
+RefactoringAction 1445429947658 PlanetExplorer.java ADD String heading FIELD
+EditAction 1445429949947 PlanetExplorer.java 1821 5 6 0

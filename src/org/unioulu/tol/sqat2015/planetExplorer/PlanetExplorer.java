@@ -7,6 +7,9 @@ public class PlanetExplorer {
 	
 	public static int planet_x_max = 0;
 	public static int planet_y_max = 0;
+	public static int location_x = 0;
+	public static int location_y = 0;
+	public static String heading = "N";
 	
 	public PlanetExplorer(int x, int y, String obstacles){
 	/*	x and y represent the size of the grid.
