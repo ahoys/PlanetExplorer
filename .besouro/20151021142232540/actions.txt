@@ -190,3 +190,10 @@ EditAction 1445432113092 TestPlanetExplorer.java 1420 5 12 5
 UnitTestCaseAction 1445432114835 TestPlanetExplorer.java FAIL
 UnitTestSessionAction 1445432114835 TestPlanetExplorer FAIL
 EditAction 1445432122815 TestPlanetExplorer.java 1422 5 12 5
+UnitTestCaseAction 1445432124699 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1445432124700 TestPlanetExplorer FAIL
+RefactoringAction 1445432132041 TestPlanetExplorer.java REMOVE testInitialStatusRequest() METHOD
+RefactoringAction 1445432141562 TestPlanetExplorer.java ADD PlanetExplorer planet FIELD
+RefactoringAction 1445432152575 TestPlanetExplorer.java REMOVE planet FIELD
+RefactoringAction 1445432160403 TestPlanetExplorer.java ADD void testInitialStatusRequest() METHOD
+EditAction 1445432163947 TestPlanetExplorer.java 1422 5 12 5

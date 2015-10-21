@@ -16,17 +16,17 @@ public class TestPlanetExplorer {
 	}
 	
 	@Test
-	public void testReturningPlanetSizeY(){
-		// Return the y-size limit as a int value.
-		PlanetExplorer planet = new PlanetExplorer(100,100,null);
-		assertEquals(100,planet.getPlanetY());
-	}
-	
-	@Test
 	public void testInitialStatusRequest() {
 		// Test returning the location and heading of the explorer.
 		PlanetExplorer planet = new PlanetExplorer(100,100,null);
 		assertEquals("(0,0,N)",planet.executeCommand(""));
+	}
+	
+	@Test
+	public void testReturningPlanetSizeY(){
+		// Return the y-size limit as a int value.
+		PlanetExplorer planet = new PlanetExplorer(100,100,null);
+		assertEquals(100,planet.getPlanetY());
 	}
 	
 	@Test
