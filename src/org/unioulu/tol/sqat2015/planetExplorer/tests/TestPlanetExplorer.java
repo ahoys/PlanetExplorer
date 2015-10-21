@@ -22,7 +22,7 @@ public class TestPlanetExplorer {
 		assertEquals(100,planet.getPlanetY());
 	}
 	
-	@Test
+	@Before
 	public void testInitialStatusRequest() {
 		// Test returning the location and heading of the explorer.
 		PlanetExplorer planet = new PlanetExplorer(100,100,null);
