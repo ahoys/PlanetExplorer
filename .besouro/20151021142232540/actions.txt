@@ -230,3 +230,6 @@ RefactoringAction 1445432681877 PlanetExplorer.java RENAME returnExplorerState()
 EditAction 1445432684647 PlanetExplorer.java 2924 11 17 0
 EditAction 1445432810988 PlanetExplorer.java 2972 11 18 0
 EditAction 1445432817367 PlanetExplorer.java 2975 11 18 0
+UnitTestCaseAction 1445433195162 TestPlanetExplorer.java OK
+UnitTestSessionAction 1445433195162 TestPlanetExplorer OK
+EditAction 1445433311555 PlanetExplorer.java 3250 11 18 0

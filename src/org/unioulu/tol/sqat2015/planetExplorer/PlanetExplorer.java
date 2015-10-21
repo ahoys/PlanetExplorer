@@ -34,12 +34,30 @@ public class PlanetExplorer {
 		 * The return string should also contain a list of coordinates of the encountered obstacles. No white spaces.
 		 */
 		
-		char[] commandList = command.toCharArray();
+		String[] commandList = command.split("");
 		
-		if (command == null || command.isEmpty()) {
-			// Empty string returns the current status of the Explorer.
-			return getExplorerState();
+		for(int i = 0; i < commandList.length; i++) {
+			String thisCommand = commandList[i];
+			
+			// Empty request returns the current status of the Explorer.
+			if (thisCommand == null || thisCommand.isEmpty()) {
+				return getExplorerState();
+			}
+			
+			// Moving
+			switch (thisCommand) {
+			case "f":
+				break;
+			case "b":
+				break;
+			case "l":
+				break;
+			case "r":
+				break;
+			}
+			
 		}
+		
 		return null;
 	}
 	
