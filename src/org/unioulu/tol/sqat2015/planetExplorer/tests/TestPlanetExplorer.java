@@ -53,7 +53,7 @@ public class TestPlanetExplorer {
 		assertEquals("(0,0,N)",planet.executeCommand("l"));
 	}
 	
-	@Test
+	@Last
 	public void testRoute() {
 		PlanetExplorer planet = new PlanetExplorer(100,100,null);
 		assertEquals("(1,1,W)",planet.executeCommand("ffrflbl"));
