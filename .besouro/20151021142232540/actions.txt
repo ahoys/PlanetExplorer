@@ -57,3 +57,8 @@ RefactoringAction 1445429296350 PlanetExplorer.java RENAME setGridSizeX()=>void 
 EditAction 1445429306563 PlanetExplorer.java 1650 5 5 0
 RefactoringAction 1445429340373 TestPlanetExplorer.java ADD void testSavingGridLimits() METHOD
 EditAction 1445429344723 TestPlanetExplorer.java 520 2 2 1
+RefactoringAction 1445429357726 PlanetExplorer.java RENAME getGridSizeY()=>int getPlanetY() METHOD
+RefactoringAction 1445429362733 PlanetExplorer.java RENAME getGridSizeX()=>int getPlanetX() METHOD
+RefactoringAction 1445429369244 PlanetExplorer.java RENAME setGridSize(int, int)=>void setPlanet(int, int) METHOD
+RefactoringAction 1445429370752 PlanetExplorer.java RENAME setPlanet(int, int)=>void setPlanetSize(int, int) METHOD
+EditAction 1445429411475 PlanetExplorer.java 1648 5 5 0

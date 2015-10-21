@@ -32,15 +32,15 @@ public class PlanetExplorer {
 		return null;
 	}
 	
-	public int getGridSizeX() {
+	public int getPlanetX() {
 		return planet_x_max;
 	}
 	
-	public int getGridSizeY() {
+	public int getPlanetY() {
 		return planet_y_max;
 	}
 	
-	public void setGridSize(int x, int y) {
+	public void setPlanetSize(int x, int y) {
 		planet_x_max = x;
 		planet_y_max = y;
 	}
