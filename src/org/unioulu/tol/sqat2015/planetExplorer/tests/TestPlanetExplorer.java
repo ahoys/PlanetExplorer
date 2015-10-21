@@ -32,8 +32,8 @@ public class TestPlanetExplorer {
 	public void testReturningNewExplorerXlocation() {
 		// Test returning the location and heading of the explorer.
 		PlanetExplorer planet = new PlanetExplorer(100,100,null);
-		planet.setLocationX(1);
-		assertEquals(1,planet.getLocationX());
+		planet.setLocationX(2);
+		assertEquals(2,planet.getLocationX());
 	}
 	
 	@Test
