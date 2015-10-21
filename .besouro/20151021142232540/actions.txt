@@ -95,3 +95,20 @@ EditAction 1445430579455 PlanetExplorer.java 2139 5 6 0
 EditAction 1445430587570 PlanetExplorer.java 2135 5 6 0
 EditAction 1445430626788 PlanetExplorer.java 2150 5 6 0
 EditAction 1445430804238 PlanetExplorer.java 2275 5 7 0
+RefactoringAction 1445430819826 PlanetExplorer.java ADD int set FIELD
+RefactoringAction 1445430822833 PlanetExplorer.java REMOVE set FIELD
+RefactoringAction 1445430829848 PlanetExplorer.java ADD void set FIELD
+RefactoringAction 1445430831853 PlanetExplorer.java RENAME set=>void setLocationX FIELD
+RefactoringAction 1445430834359 PlanetExplorer.java RENAME setLocationX=>void setLocationX(int) METHOD
+RefactoringAction 1445430857411 PlanetExplorer.java ADD void setLocationY(int) METHOD
+RefactoringAction 1445430875986 PlanetExplorer.java ADD void setHeading FIELD
+RefactoringAction 1445430878493 PlanetExplorer.java RENAME setHeading=>void setHeading(int) METHOD
+RefactoringAction 1445430888013 PlanetExplorer.java RENAME setHeading(int)=>void setHeading(String) METHOD
+RefactoringAction 1445430917958 TestPlanetExplorer.java ADD void testInitialStatusRequest()/2 METHOD
+RefactoringAction 1445430924964 TestPlanetExplorer.java RENAME testInitialStatusRequest()/2=>void testSetExplorerX() METHOD
+RefactoringAction 1445430926968 TestPlanetExplorer.java RENAME testSetExplorerX()=>void testSetExplorerXlocation() METHOD
+RefactoringAction 1445430974505 TestPlanetExplorer.java RENAME testSetExplorerXlocation()=>void testReturningExplorerXlocation() METHOD
+RefactoringAction 1445431017087 PlanetExplorer.java ADD void getLocationX() METHOD
+RefactoringAction 1445431032199 PlanetExplorer.java ADD int getLocationX()/2 METHOD
+RefactoringAction 1445431034705 PlanetExplorer.java RENAME getLocationX()/2=>int getLocationY() METHOD
+EditAction 1445431042655 PlanetExplorer.java 2577 10 12 0

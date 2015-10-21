@@ -55,4 +55,24 @@ public class PlanetExplorer {
 		planet_y_max = y;
 	}
 	
+	public void setLocationX(int x) {
+		location_x = x;
+	}
+	
+	public void setLocationY(int y) {
+		location_y = y;
+	}
+	
+	public int getLocationX() {
+		return location_x;
+	}
+	
+	public int getLocationY() {
+		return location_y;
+	}
+	
+	public void setHeading(String h) {
+		heading = h;
+	}
+	
 }
