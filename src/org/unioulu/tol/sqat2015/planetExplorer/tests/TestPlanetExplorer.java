@@ -38,7 +38,7 @@ public class TestPlanetExplorer {
 	@Test
 	public void testMoveBackward() {
 		PlanetExplorer planet = new PlanetExplorer(100,100,null);
-		assertEquals("(0,-1,N)",planet.executeCommand("b"));
+		assertEquals("(0,99,N)",planet.executeCommand("b"));
 	}
 	
 	@Test
