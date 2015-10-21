@@ -34,6 +34,7 @@ public class PlanetExplorer {
 		 * The return string should also contain a list of coordinates of the encountered obstacles. No white spaces.
 		 */
 		
+		// Format components of the output message
 		String explorerX = String.valueOf(location_x);
 		String explorerY = String.valueOf(location_y);
 		String explorerH = heading;
