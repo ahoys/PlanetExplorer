@@ -61,10 +61,10 @@ public class PlanetExplorer {
 			}
 			
 			// Warp
-			if (location_x > planet_x_max - 1) {
+			if (location_x >= planet_x_max) {
 				location_x = 0;
 			}
-			if (location_y > planet_y_max - 1) {
+			if (location_y >= planet_y_max) {
 				location_y = 0;
 			}
 			if (location_x < 0) {
