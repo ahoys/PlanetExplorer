@@ -316,3 +316,8 @@ UnitTestSessionAction 1445434363767 TestPlanetExplorer FAIL
 EditAction 1445434417223 PlanetExplorer.java 4701 15 22 0
 EditAction 1445434427920 PlanetExplorer.java 4695 15 22 0
 EditAction 1445434432782 TestPlanetExplorer.java 1565 7 14 7
+UnitTestCaseAction 1445434434480 TestPlanetExplorer.java OK
+UnitTestSessionAction 1445434434480 TestPlanetExplorer OK
+RefactoringAction 1445434450289 TestPlanetExplorer.java ADD void testTurnLeft()/2 METHOD
+RefactoringAction 1445434454294 TestPlanetExplorer.java RENAME testTurnLeft()/2=>void testRoute() METHOD
+EditAction 1445434500678 TestPlanetExplorer.java 1730 8 16 8
