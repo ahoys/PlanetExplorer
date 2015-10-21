@@ -40,8 +40,8 @@ public class TestPlanetExplorer {
 	public void testReturningNewExplorerYlocation() {
 		// Test returning the location and heading of the explorer.
 		PlanetExplorer planet = new PlanetExplorer(100,100,null);
-		planet.setLocationY(0);
-		assertEquals(0,planet.getLocationY());
+		planet.setLocationY(2);
+		assertEquals(2,planet.getLocationY());
 	}
 	
 }
