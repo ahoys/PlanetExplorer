@@ -73,3 +73,8 @@ RefactoringAction 1445429800804 TestPlanetExplorer.java RENAME testReturningPlan
 RefactoringAction 1445429831841 TestPlanetExplorer.java ADD void testReturningPlanetSizeX()/2 METHOD
 RefactoringAction 1445429836352 TestPlanetExplorer.java RENAME testReturningPlanetSizeX()/2=>void testReturningPlanetSizeY() METHOD
 EditAction 1445429844363 TestPlanetExplorer.java 871 3 6 3
+UnitTestCaseAction 1445429846886 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1445429846886 TestPlanetExplorer FAIL
+UnitTestCaseAction 1445429866688 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1445429866689 TestPlanetExplorer FAIL
+EditAction 1445429893557 PlanetExplorer.java 1711 5 6 0
