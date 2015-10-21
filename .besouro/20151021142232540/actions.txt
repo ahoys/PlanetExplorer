@@ -282,3 +282,6 @@ UnitTestSessionAction 1445433902712 TestPlanetExplorer FAIL
 RefactoringAction 1445433938331 TestPlanetExplorer.java REMOVE testMoveBackward() METHOD
 RefactoringAction 1445433941339 TestPlanetExplorer.java ADD void testMoveBackward() METHOD
 EditAction 1445433943401 TestPlanetExplorer.java 2161 9 24 9
+UnitTestCaseAction 1445433945571 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1445433945571 TestPlanetExplorer FAIL
+EditAction 1445433954949 TestPlanetExplorer.java 2162 9 24 9

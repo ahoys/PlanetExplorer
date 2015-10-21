@@ -49,7 +49,7 @@ public class TestPlanetExplorer {
 	public void testMoveBackward() {
 		PlanetExplorer planet = new PlanetExplorer(100,100,null);
 		planet.moveBackward();
-		assertEquals("(0,0,N)",planet.executeCommand(""));
+		assertEquals("(0,-1,N)",planet.executeCommand(""));
 	}
 	
 	@Test
