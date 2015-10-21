@@ -35,3 +35,23 @@ RefactoringAction 1445428881748 TestPlanetExplorer.java REMOVE validObstacle FIE
 RefactoringAction 1445428881749 TestPlanetExplorer.java REMOVE invalidJourney FIELD
 RefactoringAction 1445428881749 TestPlanetExplorer.java REMOVE validJourney FIELD
 EditAction 1445428882732 TestPlanetExplorer.java 463 1 2 1
+UnitTestCaseAction 1445428888362 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1445428888367 TestPlanetExplorer FAIL
+RefactoringAction 1445429047220 PlanetExplorer.java ADD void setPlanetSize() METHOD
+RefactoringAction 1445429050730 PlanetExplorer.java RENAME setPlanetSize()=>void setPlanetSize(int, int) METHOD
+RefactoringAction 1445429155396 PlanetExplorer.java ADD int planet_x FIELD
+RefactoringAction 1445429163404 PlanetExplorer.java ADD int planet_y FIELD
+RefactoringAction 1445429172413 PlanetExplorer.java RENAME planet_x=>int planet_x_max FIELD
+RefactoringAction 1445429174922 PlanetExplorer.java RENAME planet_y=>int planet_y_max FIELD
+RefactoringAction 1445429180949 PlanetExplorer.java RENAME setPlanetSize(int, int)=>void getSize(int, int) METHOD
+RefactoringAction 1445429186457 PlanetExplorer.java RENAME getSize(int, int)=>void getPlanetSide(int, int) METHOD
+RefactoringAction 1445429209173 PlanetExplorer.java RENAME getPlanetSide(int, int)=>int getSize(int, int) METHOD
+RefactoringAction 1445429212683 PlanetExplorer.java RENAME getSize(int, int)=>int getGridSize(int, int) METHOD
+RefactoringAction 1445429218700 PlanetExplorer.java RENAME getGridSize(int, int)=>int getGridSize() METHOD
+RefactoringAction 1445429240725 PlanetExplorer.java RENAME getGridSize()=>int getGridSizeX() METHOD
+RefactoringAction 1445429258763 PlanetExplorer.java ADD int getGridSizeX()/2 METHOD
+RefactoringAction 1445429261278 PlanetExplorer.java RENAME getGridSizeX()/2=>int getGridSizeY() METHOD
+RefactoringAction 1445429270802 PlanetExplorer.java ADD int getGridSizeX()/2 METHOD
+RefactoringAction 1445429273309 PlanetExplorer.java RENAME getGridSizeX()/2=>int setGridSizeX() METHOD
+RefactoringAction 1445429296350 PlanetExplorer.java RENAME setGridSizeX()=>void setGridSize(int, int) METHOD
+EditAction 1445429306563 PlanetExplorer.java 1650 5 5 0

@@ -4,6 +4,10 @@ package org.unioulu.tol.sqat2015.planetExplorer;
 // ID: 104
 // Finish time: 16.27
 public class PlanetExplorer {
+	
+	public static int planet_x_max = 0;
+	public static int planet_y_max = 0;
+	
 	public PlanetExplorer(int x, int y, String obstacles){
 	/*	x and y represent the size of the grid.
 	 *  Obstacles is a String formatted as follows: "(obs1_x,obs1_y)(obs2_x,obs2_y)...(obsN_x,obsN_y)" with no white spaces. 
@@ -27,4 +31,18 @@ public class PlanetExplorer {
 		
 		return null;
 	}
+	
+	public int getGridSizeX() {
+		return planet_x_max;
+	}
+	
+	public int getGridSizeY() {
+		return planet_y_max;
+	}
+	
+	public void setGridSize(int x, int y) {
+		planet_x_max = x;
+		planet_y_max = y;
+	}
+	
 }
