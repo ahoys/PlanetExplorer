@@ -2,7 +2,7 @@ package org.unioulu.tol.sqat2015.planetExplorer;
 
 // Before submitting write your ID and finish time here. Your ID is written on project description sheets.
 // ID: 104
-// Finish time: 16.27
+// Finish time: 16.37
 public class PlanetExplorer {
 	
 	public static int 		planet_x_max = 0;			// Width of the planet in grid units.
