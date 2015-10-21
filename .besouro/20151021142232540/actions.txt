@@ -203,3 +203,8 @@ EditAction 1445432172250 TestPlanetExplorer.java 1422 5 12 5
 RefactoringAction 1445432225367 TestPlanetExplorer.java REMOVE testInitialStatusRequest() METHOD
 RefactoringAction 1445432237384 TestPlanetExplorer.java ADD void testInitialStatusRequest() METHOD
 EditAction 1445432237730 TestPlanetExplorer.java 1422 5 12 5
+UnitTestCaseAction 1445432268113 TestPlanetExplorer.java OK
+UnitTestSessionAction 1445432268114 TestPlanetExplorer OK
+RefactoringAction 1445432338005 PlanetExplorer.java RENAME getPlanetX()=>int getPlanetSizeX() METHOD
+RefactoringAction 1445432344518 PlanetExplorer.java RENAME getPlanetY()=>int getPlanetSizeY() METHOD
+EditAction 1445432345159 PlanetExplorer.java 2859 10 15 0

@@ -2,3 +2,10 @@
 1445432056269 test-addition 2 101 true
 1445432056270 test-addition 2 101 true
 1445432056271 test-addition 1 101 true
+1445432268114 test-addition 2 192 true
+1445432268115 test-addition 2 192 true
+1445432268116 test-addition 2 192 true
+1445432268117 test-addition 1 192 true
+1445432268118 test-addition 2 192 true
+1445432268119 test-addition 1 192 true
+1445432268120 test-addition 1 192 true

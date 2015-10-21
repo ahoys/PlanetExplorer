@@ -48,11 +48,11 @@ public class PlanetExplorer {
 		return null;
 	}
 	
-	public int getPlanetX() {
+	public int getPlanetSizeX() {
 		return planet_x_max;
 	}
 	
-	public int getPlanetY() {
+	public int getPlanetSizeY() {
 		return planet_y_max;
 	}
 	
