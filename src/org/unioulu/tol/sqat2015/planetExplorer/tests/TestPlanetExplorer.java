@@ -12,7 +12,7 @@ public class TestPlanetExplorer {
 	public static String invalidObastacle = "(0,a)(0,10)";
 	
 	@Test
-	public void test() {
-		fail("Not yet implemented");
+	public void testInitialStatusRequest() {
+		assertEquals("(0,0,N)","");
 	}
 }
