@@ -266,3 +266,11 @@ RefactoringAction 1445433820020 PlanetExplorer.java ADD void turnRight()/2 METHO
 RefactoringAction 1445433823530 PlanetExplorer.java RENAME turnRight()/2=>void turnLeft() METHOD
 EditAction 1445433832982 PlanetExplorer.java 4009 14 21 0
 EditAction 1445433835631 TestPlanetExplorer.java 1967 8 21 8
+UnitTestCaseAction 1445433837006 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1445433837007 TestPlanetExplorer FAIL
+RefactoringAction 1445433851395 TestPlanetExplorer.java ADD void testMoveForward()/2 METHOD
+RefactoringAction 1445433855903 TestPlanetExplorer.java RENAME testMoveForward()/2=>void testMoveBackward() METHOD
+RefactoringAction 1445433872920 PlanetExplorer.java ADD void moveForward()/2 METHOD
+RefactoringAction 1445433877431 PlanetExplorer.java RENAME moveForward()/2=>void moveBackward() METHOD
+EditAction 1445433886734 PlanetExplorer.java 4302 15 22 0
+EditAction 1445433887542 TestPlanetExplorer.java 2158 9 24 9

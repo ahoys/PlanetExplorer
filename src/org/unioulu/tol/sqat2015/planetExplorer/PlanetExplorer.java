@@ -120,6 +120,23 @@ public class PlanetExplorer {
 		}
 	}
 	
+	public void moveBackward() {
+		switch (heading) {
+		case "N":
+			location_y = location_y - 1;
+			break;
+		case "S":
+			location_y = location_y + 1;
+			break;
+		case "W":
+			location_x = location_x + 1;
+			break;
+		case "E":
+			location_x = location_x - 1;
+			break;
+		}
+	}
+	
 	public void turnRight() {
 		switch (heading) {
 		case "N":
