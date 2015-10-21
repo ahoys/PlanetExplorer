@@ -9,3 +9,4 @@ EditAction 1445428370656 TestPlanetExplorer.java 330 1 1 0
 RefactoringAction 1445428381054 TestPlanetExplorer.java ADD String validObstacle FIELD
 RefactoringAction 1445428392564 TestPlanetExplorer.java ADD String invalidObastacle FIELD
 EditAction 1445428496015 TestPlanetExplorer.java 441 1 1 0
+EditAction 1445428504642 TestPlanetExplorer.java 440 1 1 0
