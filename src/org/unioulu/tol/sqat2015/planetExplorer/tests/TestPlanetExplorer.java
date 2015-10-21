@@ -10,8 +10,8 @@ public class TestPlanetExplorer {
 	@Test
 	public void testReturningPlanetSizeX(){
 		// Return the x-size limit as a int value.
-		PlanetExplorer planet = new PlanetExplorer(100,100,null);
-		assertEquals(100,planet.getPlanetX());
+		PlanetExplorer planet1 = new PlanetExplorer(100,100,null);
+		assertEquals(100,planet1.getPlanetX());
 	}
 	
 	@Test
