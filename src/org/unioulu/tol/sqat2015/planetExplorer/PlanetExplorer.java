@@ -36,12 +36,12 @@ public class PlanetExplorer {
 		
 		if (command == null || command.isEmpty()) {
 			// Empty string returns the current status of the Explorer.
-			return returnOutput();
+			return returnExplorerState();
 		}
 		return null;
 	}
 	
-	public String returnOutput() {
+	public String returnExplorerState() {
 		// Format components of the output message
 		String explorerX = String.valueOf(location_x);
 		String explorerY = String.valueOf(location_y);
