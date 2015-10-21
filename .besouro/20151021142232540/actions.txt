@@ -64,3 +64,6 @@ RefactoringAction 1445429370752 PlanetExplorer.java RENAME setPlanet(int, int)=>
 EditAction 1445429411475 PlanetExplorer.java 1648 5 5 0
 RefactoringAction 1445429430273 TestPlanetExplorer.java RENAME testSavingGridLimits()=>void testReturningPlanetSize() METHOD
 EditAction 1445429557443 TestPlanetExplorer.java 662 2 4 2
+UnitTestCaseAction 1445429563241 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1445429563242 TestPlanetExplorer FAIL
+EditAction 1445429609574 PlanetExplorer.java 1677 5 6 0
