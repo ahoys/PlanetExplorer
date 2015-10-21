@@ -123,3 +123,8 @@ EditAction 1445431097379 TestPlanetExplorer.java 1397 5 12 5
 UnitTestCaseAction 1445431101315 TestPlanetExplorer.java FAIL
 UnitTestSessionAction 1445431101316 TestPlanetExplorer FAIL
 EditAction 1445431109034 TestPlanetExplorer.java 1397 5 12 5
+RefactoringAction 1445431122835 TestPlanetExplorer.java RENAME testReturningInvalidExplorerXlocation()=>void testReturningExplorerXlocation() METHOD
+RefactoringAction 1445431125849 TestPlanetExplorer.java RENAME testReturningValidExplorerXlocation()=>void testReturningNewExplorerXlocation() METHOD
+RefactoringAction 1445431133360 TestPlanetExplorer.java REMOVE testReturningExplorerXlocation() METHOD
+RefactoringAction 1445431135867 TestPlanetExplorer.java ADD void testReturningExplorerXlocation() METHOD
+EditAction 1445431142000 TestPlanetExplorer.java 1364 5 11 5
