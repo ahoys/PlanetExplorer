@@ -47,12 +47,16 @@ public class PlanetExplorer {
 			// Moving
 			switch (thisCommand) {
 			case "f":
+				this.moveForward();
 				break;
 			case "b":
+				this.moveBackward();
 				break;
 			case "l":
+				this.turnLeft();
 				break;
 			case "r":
+				this.turnRight();
 				break;
 			}
 			

@@ -48,30 +48,26 @@ public class TestPlanetExplorer {
 	@Test
 	public void testMoveBackward() {
 		PlanetExplorer planet = new PlanetExplorer(100,100,null);
-		planet.moveBackward();
-		assertEquals("(0,-1,N)",planet.executeCommand(""));
+		assertEquals("(0,-1,N)",planet.executeCommand("b"));
 	}
 	
 	@Test
 	public void testMoveForward() {
 		PlanetExplorer planet = new PlanetExplorer(100,100,null);
-		planet.moveForward();
-		assertEquals("(0,0,N)",planet.executeCommand(""));
+		assertEquals("(0,0,N)",planet.executeCommand("f"));
 	}
 	
 	
 	@Test
 	public void testTurnRight() {
 		PlanetExplorer planet = new PlanetExplorer(100,100,null);
-		planet.turnRight();
-		assertEquals("(1,0,E)",planet.executeCommand(""));
+		assertEquals("(1,0,E)",planet.executeCommand("r"));
 	}
 	
 	@Test
 	public void testTurnLeft() {
 		PlanetExplorer planet = new PlanetExplorer(100,100,null);
-		planet.turnLeft();
-		assertEquals("(1,0,N)",planet.executeCommand(""));
+		assertEquals("(1,0,N)",planet.executeCommand("l"));
 	}
 	
 }
