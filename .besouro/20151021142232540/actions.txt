@@ -16,3 +16,15 @@ RefactoringAction 1445428580422 TestPlanetExplorer.java RENAME testExecuteValidJ
 RefactoringAction 1445428587929 TestPlanetExplorer.java RENAME testExecuteInitialStatusRequest()=>void testInitialStatusRequest() METHOD
 EditAction 1445428612160 TestPlanetExplorer.java 459 1 1 1
 EditAction 1445428682411 TestPlanetExplorer.java 584 1 2 1
+CompilationAction 1445428682701 TestPlanetExplorer.java
+CompilationAction 1445428682702 TestPlanetExplorer.java
+CompilationAction 1445428682702 TestPlanetExplorer.java
+CompilationAction 1445428682703 TestPlanetExplorer.java
+RefactoringAction 1445428696266 TestPlanetExplorer.java ADD import org.unioulu.tol.sqat2015.planetExplorer.PlanetExplorer IMPORT
+CompilationAction 1445428711056 TestPlanetExplorer.java
+CompilationAction 1445428711057 TestPlanetExplorer.java
+CompilationAction 1445428711214 TestPlanetExplorer.java
+CompilationAction 1445428711215 TestPlanetExplorer.java
+CompilationAction 1445428763154 TestPlanetExplorer.java
+CompilationAction 1445428763154 TestPlanetExplorer.java
+EditAction 1445428786364 TestPlanetExplorer.java 611 1 2 1

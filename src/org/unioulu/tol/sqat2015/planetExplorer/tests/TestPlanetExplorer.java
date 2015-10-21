@@ -1,9 +1,9 @@
 package org.unioulu.tol.sqat2015.planetExplorer.tests;
-package org.unioulu.tol.sqat2015.planetExplorer;
 
 import static org.junit.Assert.*;
 
 import org.junit.Test;
+import org.unioulu.tol.sqat2015.planetExplorer.PlanetExplorer;
 
 public class TestPlanetExplorer {
 	
@@ -14,7 +14,7 @@ public class TestPlanetExplorer {
 	
 	@Test
 	public void testInitialStatusRequest() {
-		PlanetExplorer explorerCommand = new PlanetExplorer();
-		assertEquals("(0,0,N)",explorerCommand(""));
+		PlanetExplorer command = new PlanetExplorer(100, 100, null);
+		assertEquals("(0,0,N)",command.executeCommand(""));
 	}
 }
