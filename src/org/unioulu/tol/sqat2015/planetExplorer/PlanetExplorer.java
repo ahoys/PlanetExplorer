@@ -34,7 +34,7 @@ public class PlanetExplorer {
 		 * The return string should also contain a list of coordinates of the encountered obstacles. No white spaces.
 		 */
 		
-		char[] commands = command.toCharArray();
+		char[] commandList = command.toCharArray();
 		
 		if (command == null || command.isEmpty()) {
 			// Empty string returns the current status of the Explorer.
