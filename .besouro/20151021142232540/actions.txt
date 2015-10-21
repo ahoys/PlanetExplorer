@@ -112,3 +112,4 @@ RefactoringAction 1445431017087 PlanetExplorer.java ADD void getLocationX() METH
 RefactoringAction 1445431032199 PlanetExplorer.java ADD int getLocationX()/2 METHOD
 RefactoringAction 1445431034705 PlanetExplorer.java RENAME getLocationX()/2=>int getLocationY() METHOD
 EditAction 1445431042655 PlanetExplorer.java 2577 10 12 0
+EditAction 1445431046865 TestPlanetExplorer.java 1128 4 9 4
