@@ -26,13 +26,7 @@ public class TestPlanetExplorer {
 	public void testInitialStatusRequest() {
 		// Test returning the location and heading of the explorer.
 		PlanetExplorer planet = new PlanetExplorer(100,100,null);
-		assertEquals("(1,0,N)",planet.executeCommand(""));
-	}
-	
-	@Test
-	public void testMoveBackward() {
-		PlanetExplorer planet = new PlanetExplorer(100,100,null);
-		assertEquals("(0,-1,N)",planet.executeCommand("b"));
+		assertEquals("(0,0,N)",planet.executeCommand(""));
 	}
 	
 	@Test
@@ -41,6 +35,11 @@ public class TestPlanetExplorer {
 		assertEquals("(0,0,N)",planet.executeCommand("f"));
 	}
 	
+	@Test
+	public void testMoveBackward() {
+		PlanetExplorer planet = new PlanetExplorer(100,100,null);
+		assertEquals("(0,-1,N)",planet.executeCommand("b"));
+	}
 	
 	@Test
 	public void testTurnRight() {

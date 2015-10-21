@@ -297,3 +297,6 @@ UnitTestSessionAction 1445434063919 TestPlanetExplorer OK
 RefactoringAction 1445434095727 TestPlanetExplorer.java REMOVE testReturningNewExplorerXlocation() METHOD
 RefactoringAction 1445434095728 TestPlanetExplorer.java REMOVE testReturningNewExplorerYlocation() METHOD
 EditAction 1445434095892 TestPlanetExplorer.java 1568 7 14 7
+RefactoringAction 1445434108241 TestPlanetExplorer.java REMOVE testMoveBackward() METHOD
+RefactoringAction 1445434110244 TestPlanetExplorer.java ADD void testMoveBackward() METHOD
+EditAction 1445434110579 TestPlanetExplorer.java 1565 7 14 7
