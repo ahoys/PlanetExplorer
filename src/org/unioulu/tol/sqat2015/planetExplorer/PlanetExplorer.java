@@ -103,4 +103,55 @@ public class PlanetExplorer {
 		heading = h;
 	}
 	
+	public void moveForward() {
+		switch (heading) {
+		case "N":
+			location_y = location_y + 1;
+			break;
+		case "S":
+			location_y = location_y - 1;
+			break;
+		case "W":
+			location_x = location_x - 1;
+			break;
+		case "E":
+			location_x = location_x + 1;
+			break;
+		}
+	}
+	
+	public void turnRight() {
+		switch (heading) {
+		case "N":
+			heading = "E";
+			break;
+		case "S":
+			heading = "W";
+			break;
+		case "W":
+			heading = "N";
+			break;
+		case "E":
+			heading = "S";
+			break;
+		}
+	}
+	
+	public void turnLeft() {
+		switch (heading) {
+		case "N":
+			heading = "W";
+			break;
+		case "S":
+			heading = "E";
+			break;
+		case "W":
+			heading = "S";
+			break;
+		case "E":
+			heading = "N";
+			break;
+		}
+	}
+	
 }

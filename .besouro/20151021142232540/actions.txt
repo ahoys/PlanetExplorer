@@ -233,3 +233,35 @@ EditAction 1445432817367 PlanetExplorer.java 2975 11 18 0
 UnitTestCaseAction 1445433195162 TestPlanetExplorer.java OK
 UnitTestSessionAction 1445433195162 TestPlanetExplorer OK
 EditAction 1445433311555 PlanetExplorer.java 3250 11 18 0
+RefactoringAction 1445433325250 TestPlanetExplorer.java ADD void testMov FIELD
+RefactoringAction 1445433327758 TestPlanetExplorer.java RENAME testMov=>void testMoveForward FIELD
+RefactoringAction 1445433329766 TestPlanetExplorer.java RENAME testMoveForward=>void testMoveForward() METHOD
+EditAction 1445433429095 TestPlanetExplorer.java 1599 6 15 6
+CompilationAction 1445433429628 TestPlanetExplorer.java
+RefactoringAction 1445433442887 PlanetExplorer.java ADD void moveForward() METHOD
+EditAction 1445433448069 PlanetExplorer.java 3291 12 18 0
+UnitTestCaseAction 1445433452097 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1445433452098 TestPlanetExplorer FAIL
+EditAction 1445433522511 PlanetExplorer.java 3410 12 19 0
+EditAction 1445433576012 PlanetExplorer.java 3542 12 19 0
+UnitTestCaseAction 1445433592579 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1445433592580 TestPlanetExplorer FAIL
+EditAction 1445433617546 TestPlanetExplorer.java 1599 6 15 6
+UnitTestCaseAction 1445433621241 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1445433621241 TestPlanetExplorer FAIL
+RefactoringAction 1445433655767 TestPlanetExplorer.java ADD void testTurnRight() METHOD
+EditAction 1445433703005 TestPlanetExplorer.java 1784 7 18 7
+CompilationAction 1445433703182 TestPlanetExplorer.java
+RefactoringAction 1445433711828 PlanetExplorer.java ADD void turnRight() METHOD
+EditAction 1445433757574 PlanetExplorer.java 3776 13 20 0
+UnitTestCaseAction 1445433774792 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1445433774792 TestPlanetExplorer FAIL
+EditAction 1445433784678 TestPlanetExplorer.java 1784 7 18 7
+UnitTestCaseAction 1445433788880 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1445433788880 TestPlanetExplorer FAIL
+RefactoringAction 1445433795635 TestPlanetExplorer.java ADD void testTurnRight()/2 METHOD
+RefactoringAction 1445433798661 TestPlanetExplorer.java RENAME testTurnRight()/2=>void testTurn() METHOD
+RefactoringAction 1445433800166 TestPlanetExplorer.java RENAME testTurn()=>void testTurnLeft() METHOD
+RefactoringAction 1445433820020 PlanetExplorer.java ADD void turnRight()/2 METHOD
+RefactoringAction 1445433823530 PlanetExplorer.java RENAME turnRight()/2=>void turnLeft() METHOD
+EditAction 1445433832982 PlanetExplorer.java 4009 14 21 0
