@@ -61,17 +61,17 @@ public class PlanetExplorer {
 			}
 			
 			// Warp
-			if (location_x > planet_x_max) {
+			if (location_x > planet_x_max - 1) {
 				location_x = 0;
 			}
-			if (location_y > planet_y_max) {
+			if (location_y > planet_y_max - 1) {
 				location_y = 0;
 			}
 			if (location_x < 0) {
-				location_x = planet_x_max;
+				location_x = planet_x_max - 1;
 			}
 			if (location_y < 0) {
-				location_y = planet_y_max;
+				location_y = planet_y_max - 1;
 			}
 			
 		}
@@ -97,8 +97,8 @@ public class PlanetExplorer {
 	}
 	
 	public void setPlanetSize(int x, int y) {
-		planet_x_max = x - 1;
-		planet_y_max = y - 1;
+		planet_x_max = x;
+		planet_y_max = y;
 	}
 	
 	public void setLocationX(int x) {
