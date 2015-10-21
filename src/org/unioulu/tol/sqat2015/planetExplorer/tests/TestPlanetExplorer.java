@@ -14,6 +14,7 @@ public class TestPlanetExplorer {
 	
 	@Test
 	public void testInitialStatusRequest() {
+		// Test returning the location of the explorer.
 		PlanetExplorer command = new PlanetExplorer(100, 100, null);
 		assertEquals("(0,0,N)",command.executeCommand(""));
 	}
