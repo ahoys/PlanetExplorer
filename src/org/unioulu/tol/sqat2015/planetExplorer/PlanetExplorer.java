@@ -64,7 +64,6 @@ public class PlanetExplorer {
 			if (location_x > planet_x_max) {
 				location_x = 0;
 			}
-			
 			if (location_y > planet_y_max) {
 				location_y = 0;
 			}
