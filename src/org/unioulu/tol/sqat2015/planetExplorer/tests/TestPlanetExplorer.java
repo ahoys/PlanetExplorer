@@ -52,4 +52,6 @@ public class TestPlanetExplorer {
 		assertEquals("(1,1,W)",planet.executeCommand("ffrflbl"));
 	}
 	
+	// Aaaand End of time...
+	
 }
