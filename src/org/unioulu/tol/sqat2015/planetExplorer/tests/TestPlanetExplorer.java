@@ -59,4 +59,11 @@ public class TestPlanetExplorer {
 		assertEquals("(1,1,E)",planet.executeCommand(""));
 	}
 	
+	@Test
+	public void testTurnLeft() {
+		PlanetExplorer planet = new PlanetExplorer(100,100,null);
+		planet.turnLeft();
+		assertEquals("(1,1,N)",planet.executeCommand(""));
+	}
+	
 }
