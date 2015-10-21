@@ -141,3 +141,6 @@ RefactoringAction 1445431242537 TestPlanetExplorer.java REMOVE testReturningExpl
 RefactoringAction 1445431248048 TestPlanetExplorer.java ADD void testReturningNewExplorerXlocation()/2 METHOD
 RefactoringAction 1445431250554 TestPlanetExplorer.java RENAME testReturningNewExplorerXlocation()/2=>void testReturningNewExplorerYlocation() METHOD
 EditAction 1445431253130 TestPlanetExplorer.java 1394 5 12 5
+UnitTestCaseAction 1445431256049 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1445431256049 TestPlanetExplorer FAIL
+EditAction 1445431274848 TestPlanetExplorer.java 1394 5 12 5
