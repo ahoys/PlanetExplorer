@@ -38,7 +38,6 @@ public class PlanetExplorer {
 			// Empty string returns the current status of the Explorer.
 			return returnOutput();
 		}
-		
 		return null;
 	}
 	
