@@ -9,7 +9,7 @@ public class PlanetExplorer {
 	public static int planet_y_max = 0;			// Height of the planet in grid units.
 	public static int location_x = 0;			// Explorer's location on the grid in horizontal axis.
 	public static int location_y = 0;			// Explorer's location on the grid in vertical axis.
-	public static String heading = "N";			// Explorer's heading in bearings.
+	public static String heading = "N";			// Explorer's heading in bearings N E S W.
 	
 	public PlanetExplorer(int x, int y, String obstacles){
 	/*	x and y represent the size of the grid.
