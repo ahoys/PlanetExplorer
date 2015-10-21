@@ -40,6 +40,7 @@ public class TestPlanetExplorer {
 	public void testReturningInvalidExplorerXlocation() {
 		// Test returning the location and heading of the explorer.
 		PlanetExplorer planet = new PlanetExplorer(100,100,null);
+		planet.setLocationX(0);
 		assertEquals(1,planet.getLocationX());
 	}
 }
