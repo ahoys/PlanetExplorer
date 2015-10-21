@@ -197,3 +197,6 @@ RefactoringAction 1445432141562 TestPlanetExplorer.java ADD PlanetExplorer plane
 RefactoringAction 1445432152575 TestPlanetExplorer.java REMOVE planet FIELD
 RefactoringAction 1445432160403 TestPlanetExplorer.java ADD void testInitialStatusRequest() METHOD
 EditAction 1445432163947 TestPlanetExplorer.java 1422 5 12 5
+UnitTestCaseAction 1445432165931 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1445432165932 TestPlanetExplorer FAIL
+EditAction 1445432172250 TestPlanetExplorer.java 1422 5 12 5
