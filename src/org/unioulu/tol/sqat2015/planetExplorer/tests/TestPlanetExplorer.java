@@ -7,11 +7,6 @@ import org.unioulu.tol.sqat2015.planetExplorer.PlanetExplorer;
 
 public class TestPlanetExplorer {
 	
-	public static String validJourney = "ffrflb";
-	public static String invalidJourney = "fgblfr";
-	public static String validObstacle = "(0,1)(4,4)";
-	public static String invalidObastacle = "(0,a)(0,10)";
-	
 	@Test
 	public void testInitialStatusRequest() {
 		// Test returning the location and heading of the explorer.

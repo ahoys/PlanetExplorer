@@ -30,3 +30,8 @@ CompilationAction 1445428763154 TestPlanetExplorer.java
 EditAction 1445428786364 TestPlanetExplorer.java 611 1 2 1
 EditAction 1445428829023 TestPlanetExplorer.java 662 1 2 1
 EditAction 1445428846978 TestPlanetExplorer.java 674 1 2 1
+RefactoringAction 1445428881748 TestPlanetExplorer.java REMOVE invalidObastacle FIELD
+RefactoringAction 1445428881748 TestPlanetExplorer.java REMOVE validObstacle FIELD
+RefactoringAction 1445428881749 TestPlanetExplorer.java REMOVE invalidJourney FIELD
+RefactoringAction 1445428881749 TestPlanetExplorer.java REMOVE validJourney FIELD
+EditAction 1445428882732 TestPlanetExplorer.java 463 1 2 1
