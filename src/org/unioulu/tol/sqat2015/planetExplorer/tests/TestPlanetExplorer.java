@@ -8,7 +8,7 @@ import org.unioulu.tol.sqat2015.planetExplorer.PlanetExplorer;
 
 public class TestPlanetExplorer {
 	
-	@Before
+	@Test
 	public void testReturningPlanetSizeX(){
 		// Return the x-size limit as a int value.
 		PlanetExplorer planet = new PlanetExplorer(100,100,null);
