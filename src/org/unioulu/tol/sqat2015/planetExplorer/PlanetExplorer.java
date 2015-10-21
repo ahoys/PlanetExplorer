@@ -34,18 +34,21 @@ public class PlanetExplorer {
 		 * The return string should also contain a list of coordinates of the encountered obstacles. No white spaces.
 		 */
 		
+		if (command == null || command.isEmpty()) {
+			// Empty string returns the current status of the Explorer.
+			this.returnOutput();
+		}
+		
+		return null;
+	}
+	
+	public String returnOutput() {
 		// Format components of the output message
 		String explorerX = String.valueOf(location_x);
 		String explorerY = String.valueOf(location_y);
 		String explorerH = heading;
-		
-		if (command == null || command.isEmpty()) {
-			// Empty string returns the current status of the Explorer.
-			String output = "(" + explorerX + "," + explorerY + "," + explorerH + ")";
-			return output;
-		}
-		
-		return null;
+		String output = "(" + explorerX + "," + explorerY + "," + explorerH + ")";
+		return output;
 	}
 	
 	public int getPlanetSizeX() {

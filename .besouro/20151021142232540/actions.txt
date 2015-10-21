@@ -208,3 +208,12 @@ UnitTestSessionAction 1445432268114 TestPlanetExplorer OK
 RefactoringAction 1445432338005 PlanetExplorer.java RENAME getPlanetX()=>int getPlanetSizeX() METHOD
 RefactoringAction 1445432344518 PlanetExplorer.java RENAME getPlanetY()=>int getPlanetSizeY() METHOD
 EditAction 1445432345159 PlanetExplorer.java 2859 10 15 0
+CompilationAction 1445432345562 TestPlanetExplorer.java
+CompilationAction 1445432345562 TestPlanetExplorer.java
+CompilationAction 1445432350910 TestPlanetExplorer.java
+CompilationAction 1445432350910 TestPlanetExplorer.java
+UnitTestCaseAction 1445432354224 TestPlanetExplorer.java OK
+UnitTestSessionAction 1445432354225 TestPlanetExplorer OK
+RefactoringAction 1445432506010 PlanetExplorer.java ADD String returnOutp FIELD
+RefactoringAction 1445432507521 PlanetExplorer.java RENAME returnOutp=>String returnOutput() METHOD
+EditAction 1445432570741 PlanetExplorer.java 2918 11 17 0

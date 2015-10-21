@@ -12,14 +12,14 @@ public class TestPlanetExplorer {
 	public void testReturningPlanetSizeX(){
 		// Return the x-size limit as a int value.
 		PlanetExplorer planet = new PlanetExplorer(100,100,null);
-		assertEquals(100,planet.getPlanetX());
+		assertEquals(100,planet.getPlanetSizeX());
 	}
 	
 	@Test
 	public void testReturningPlanetSizeY(){
 		// Return the y-size limit as a int value.
 		PlanetExplorer planet = new PlanetExplorer(100,100,null);
-		assertEquals(100,planet.getPlanetY());
+		assertEquals(100,planet.getPlanetSizeY());
 	}
 	
 	@Test
