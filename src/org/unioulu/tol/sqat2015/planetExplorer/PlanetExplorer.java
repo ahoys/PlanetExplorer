@@ -62,7 +62,7 @@ public class PlanetExplorer {
 			
 		}
 		
-		return null;
+		return getExplorerState();
 	}
 	
 	public String getExplorerState() {
