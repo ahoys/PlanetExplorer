@@ -36,7 +36,7 @@ public class PlanetExplorer {
 		
 		if (command == null || command.isEmpty()) {
 			// Empty string returns the current status of the Explorer.
-			this.returnOutput();
+			return returnOutput();
 		}
 		
 		return null;
