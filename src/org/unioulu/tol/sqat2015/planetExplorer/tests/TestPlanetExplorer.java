@@ -44,13 +44,13 @@ public class TestPlanetExplorer {
 	@Test
 	public void testTurnRight() {
 		PlanetExplorer planet = new PlanetExplorer(100,100,null);
-		assertEquals("(1,0,E)",planet.executeCommand("r"));
+		assertEquals("(0,0,E)",planet.executeCommand("r"));
 	}
 	
 	@Test
 	public void testTurnLeft() {
 		PlanetExplorer planet = new PlanetExplorer(100,100,null);
-		assertEquals("(1,0,N)",planet.executeCommand("l"));
+		assertEquals("(0,0,N)",planet.executeCommand("l"));
 	}
 	
 }
