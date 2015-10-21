@@ -167,3 +167,7 @@ EditAction 1445431822184 TestPlanetExplorer.java 1406 5 12 5
 UnitTestCaseAction 1445431824510 TestPlanetExplorer.java FAIL
 UnitTestSessionAction 1445431824511 TestPlanetExplorer FAIL
 EditAction 1445431837713 TestPlanetExplorer.java 1394 5 12 5
+UnitTestCaseAction 1445431846754 TestPlanetExplorer.java OK
+UnitTestSessionAction 1445431846755 TestPlanetExplorer OK
+RefactoringAction 1445431955012 TestPlanetExplorer.java ADD import org.junit.Before IMPORT
+EditAction 1445431956862 TestPlanetExplorer.java 1422 5 12 5

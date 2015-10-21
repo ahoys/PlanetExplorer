@@ -2,12 +2,13 @@ package org.unioulu.tol.sqat2015.planetExplorer.tests;
 
 import static org.junit.Assert.*;
 
+import org.junit.Before;
 import org.junit.Test;
 import org.unioulu.tol.sqat2015.planetExplorer.PlanetExplorer;
 
 public class TestPlanetExplorer {
 	
-	@Test
+	@Before
 	public void testReturningPlanetSizeX(){
 		// Return the x-size limit as a int value.
 		PlanetExplorer planet = new PlanetExplorer(100,100,null);
